@@ -7,6 +7,7 @@ signals = {
    'out.data_out_n', 'bus_value_h';
    'out.data_out', 'bus_value_h';
    'out.shift_reg', 'bus_value_h';
+   'out.data_out_valid', 'single';
     };
 
 DispTime=0;
