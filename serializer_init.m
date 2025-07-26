@@ -26,6 +26,7 @@ end
 
 data_in = man_overs;
 data_en = zeros(length(data_in), 1) + 1;
+% data_en(1:3:end) = 0;
 
 N_sim = length(data_in);
 
