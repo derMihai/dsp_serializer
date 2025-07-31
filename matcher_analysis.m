@@ -15,6 +15,8 @@ signals = {
     'out.MATCHING', 'single';
     'out.MATCHING_END', 'single';
     'out.SYNC', 'single';
+    'out.MATCH_LEN', 'bus_value_d';
+
 };
 
 DispTime=0;
