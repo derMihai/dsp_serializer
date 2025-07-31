@@ -19,3 +19,6 @@ Manch_symb_oversamp = kron(Manchester_symbols, [1; zeros(N_clk_per_symbol-1, 1)]
 
 data_in = Manch_symb_oversamp;
 data_en = zeros(length(data_in), 1) + 1;
+matcher_reset = [ 1 0 ];
+
+N_sim = length(data_in);
