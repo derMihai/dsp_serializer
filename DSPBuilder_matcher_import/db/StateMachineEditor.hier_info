@@ -1,0 +1,24 @@
+|StateMachineEditor
+clock => fstate.SYNC.CLK
+clock => fstate.MATCHING_END.CLK
+clock => fstate.MATCHING.CLK
+clock => fstate.NOT_MATCHING.CLK
+reset => fstate.SYNC.ACLR
+reset => fstate.MATCHING_END.ACLR
+reset => fstate.MATCHING.ACLR
+reset => fstate.NOT_MATCHING.PRESET
+din => process_1.IN0
+din => process_1.IN0
+den => process_1.IN1
+den => process_1.IN1
+den => process_1.IN1
+den => process_1.IN1
+dvalid => process_1.IN1
+dvalid => process_1.IN1
+dvalid => process_1.IN1
+dvalid => process_1.IN1
+dmatch => process_1.IN1
+dmatch => process_1.IN1
+sync_out <= sync_int.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,21 +1,22 @@
 clear signals;
 
 signals = {
-    'matcher_match', 'single';
-    'matcher_valid', 'single';
-    'matcher_en', 'single';
-    'matcher_reset', 'single';
+    'sym_rx', 'single';
     
 %     'out.set_NOT_MATCHING', 'single';
 %     'out.set_MATCHING', 'single';
 %     'out.set_MATCHING_END', 'single';
 %     'out.set_SYNC', 'single';
 
-    'out.NOT_MATCHING', 'single';
-    'out.MATCHING', 'single';
+  %  'out.NOT_MATCHING', 'single';
+ %   'out.MATCHING', 'single';
  %   'out.MATCHING_END', 'single';
-    'out.SYNC', 'single';
-    'out.MATCH_LEN', 'bus_value_d';
+    'out.SYNC', 'bus_value_d';
+    'out.SYNC1', 'bus_value_d';
+    'out.VALID', 'single';
+    'out.VALID1', 'single';
+    'out.ALL', 'bus_value_d';
+    %'out.MATCH_LEN', 'bus_value_d';
 
 };
 

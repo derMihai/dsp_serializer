@@ -1,0 +1,4 @@
+set_global_assignment -name SOURCE_FILE  "D:/programowanie/studia/ids/StateMachineEditor.vhd"
+set_global_assignment -name SOURCE_FILE  "D:/programowanie/studia/ids/StateMachineEditor.vhd"
+set_global_assignment -name SOURCE_FILE  "D:/programowanie/studia/ids/StateMachineEditor.vhd"
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ];

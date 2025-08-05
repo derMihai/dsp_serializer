@@ -1,0 +1,15 @@
+|state_machine
+clk => state.RUNNING.CLK
+clk => state.WAITING_ENDING.CLK
+clk => state.WAITING.CLK
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+is_matching => Selector0.IN1
+is_matching => next_state.WAITING.DATAB
+is_matching => Selector1.IN2
+is_waiting <= state.WAITING.DB_MAX_OUTPUT_PORT_TYPE
+is_waiting_ending <= state.WAITING_ENDING.DB_MAX_OUTPUT_PORT_TYPE
+is_running <= state.RUNNING.DB_MAX_OUTPUT_PORT_TYPE
+
+

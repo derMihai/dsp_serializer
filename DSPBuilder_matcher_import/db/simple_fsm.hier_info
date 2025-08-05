@@ -1,0 +1,13 @@
+|simple_fsm
+clk => state.S2.CLK
+clk => state.S1.CLK
+clk => state.S0.CLK
+reset => state.S2.ACLR
+reset => state.S1.ACLR
+reset => state.S0.PRESET
+in_signal => next_state.S1.DATAB
+in_signal => Selector1.IN2
+in_signal => Selector0.IN2
+fsm_output <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+
+
