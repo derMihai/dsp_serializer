@@ -14,6 +14,8 @@ signals = {
     'out.SYNC', 'bus_value_d';
     'out.SYNC1', 'bus_value_d';
     'out.VALID', 'single';
+    'out.VALID2', 'single';
+    'out.VALID3', 'single';
     'out.VALID1', 'single';
     'out.ALL', 'bus_value_d';
     %'out.MATCH_LEN', 'bus_value_d';

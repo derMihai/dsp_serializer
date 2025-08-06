@@ -57,7 +57,7 @@ always @(*) begin
         WAITING:          is_waiting = 1'b1;
         WAITING_ENDING:   is_waiting_ending = 1'b1;
         RUNNING:          is_running = 1'b1;
-        default:          ; // all zero by default
+        default:          is_waiting = 1'b1; // all zero by default
     endcase
 end
 
