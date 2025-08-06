@@ -1,6 +1,7 @@
 module state_machine (
     input wire clk,
     input wire rst,          // synchronous reset (active high)
+    input wire ena,         // is enabled
     input wire is_matching,
     output reg is_waiting,
     output reg is_waiting_ending,
@@ -43,8 +44,9 @@ end
 always @(posedge clk) begin
     if (rst)
         state <= WAITING;
-    else
+    else if(ena)
         state <= next_state;
+    else state <= state;
 end
 
 // Output logic
