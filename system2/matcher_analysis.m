@@ -11,7 +11,7 @@ signals = {
   %  'out.NOT_MATCHING', 'single';
  %   'out.MATCHING', 'single';
  %   'out.MATCHING_END', 'single';
-    'out.SYNC', 'bus_value_d';
+%    'out.SYNC', 'bus_value_d';
     'out.SYNC1', 'bus_value_d';
     'out.VALID', 'single';
     'out.VALID2', 'single';
