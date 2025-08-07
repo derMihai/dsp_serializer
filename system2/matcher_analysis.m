@@ -30,3 +30,6 @@ signals = {
 
 DispTime=0;
 LaPlot(signals,[DispTime,DispTime+40,1]);
+
+I = find(out.VALID_BYTE);
+out.CUR_BYTE(I)
