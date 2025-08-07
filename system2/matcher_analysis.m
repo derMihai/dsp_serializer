@@ -15,7 +15,9 @@ signals = {
 %    'out.SYNC', 'bus_value_d';
     'out.COUNTER', 'bus_value_d';
     'out.OFFSET', 'bus_value_d';
-    'out.CUR_BYTE', 'bus_value_d';
+    'out.CUR_BYTE', 'bus_value_d'
+    'out.VALID_CHECK', 'single';
+
     'out.FIFO_OUT', 'bus_value_d';
     'out.IS_WAITING', 'single';
     'out.IS_WAITING_ENDING', 'single';
@@ -24,6 +26,8 @@ signals = {
     'out.VALID_BYTE', 'single';
     'out.VALID_COUNTER', 'single';
     'out.SYNC_SYMBOL', 'bus_value_d';
+    'out.START_PULSE', 'single';
+
     %'out.MATCH_LEN', 'bus_value_d';
 
 };
