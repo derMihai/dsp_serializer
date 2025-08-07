@@ -6,7 +6,7 @@
 
 sym_rx = load("sym_rx.mat").sym_rx;
 
-sym_reset = [1 ones(1, 1) zeros(1, N_sym-1)];
+% sym_reset = [1 ones(1, 1) zeros(1, N_sym-1)];
 
 data_in = kron(sym_rx, [1, 0, 0, 0]);
 valid_in= zeros(size(data_in));
