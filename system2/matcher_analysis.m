@@ -16,6 +16,8 @@ signals = {
     'out.COUNTER', 'bus_value_d';
     'out.OFFSET', 'bus_value_d';
     'out.CUR_BYTE', 'bus_value_d'
+    'out.CUR_BYTE_N', 'bus_value_d'
+
     'out.VALID_CHECK', 'single';
 
     'out.FIFO_OUT', 'bus_value_d';
